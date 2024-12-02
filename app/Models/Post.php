@@ -23,8 +23,8 @@ class Post extends Model
     protected function casts()
     {
         return [
-            'title' => 'array',
-            'content' => 'array',
+            'title' => 'json',
+            'content' => 'json',
         ];
     }
 }
